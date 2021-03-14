@@ -21,39 +21,29 @@ $primary-color: #0070f3;
   text-align: center;
 }
 
-.posts {
-  list-style: none;
-  padding: 0;
-  margin: 5em 0;
+.posts 
+{
+    list-style: none;
+    padding: 0;
+    margin: 5em 0;
 
-  li {
-    margin-bottom: 3em;
-    &:last-child {
-      margin-bottom: 0;
+    li {
+        margin-bottom: 3em;
+        &:last-child {
+        margin-bottom: 0;
+        }
     }
-  }
 
-  p {
-    &:first-child {
-      margin-top: 0;
+    p {
+        &:first-child {
+        margin-top: 0;
+        }
+        &:last-child {
+        margin-bottom: 0;
+        }
     }
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
 }
-
-.postsContent {
-  font-size: 34px;
-  line-height: 43px;
-  margin-bottom: .25em;
-}
-
-.postsDate {
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 33px;
-}
+  
 
 .formContent{
   width: 100%;
